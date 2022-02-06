@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bord{
+    height: 85vh;
+    width: 80vw;
+    background-color: rgb(12, 11, 11);
+    border-radius: 10px;
+}
+.boll{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #f093fb;
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+}
+.paddle{
+    height: 100px;
+    width: 15px;
+    background-color: #f093fb;
+    position: fixed;
+    border-radius: 2px;
+}
+.left{
+    top: 40vh;
+    left: 12vw;
+}
+.right{
+    top: 40vh;
+    right: 12vw;
+}
+
+
+
